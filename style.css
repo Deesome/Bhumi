@@ -608,11 +608,11 @@ footer {
         display: none;
     }
 
-    .logo img{
+    /* .logo img{
         content:url("https://res.cloudinary.com/drt9yid1i/image/upload/v1727973844/images/images/Asset_22_f2w5wa.png");
         width: 100px;
         
-    }
+    } */
 
     .hamburger {
        
