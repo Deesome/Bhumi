@@ -1,0 +1,194 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.about-hero-container {
+    background-image: url('./images/about-hero-bg.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-hero p {
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Bar Container */
+.bar-container {
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+    padding: 15px;
+}
+
+.bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.bar ul li {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Founder Section */
+.founder-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.founder h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.founder-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.founder-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.founder-content p {
+    max-width: 800px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Testimonials Section */
+.testimonials-container {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.testimonials h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.testimonial-card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-size: 1em;
+    color: #666;
+}
+
+/* How We Work Section */
+.work-container {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.work-list h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.work-content {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .left {
+    max-width: 400px;
+}
+
+.footer-container p {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.footer-container .socials img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-container .right ul {
+    list-style: none;
+}
+
+.footer-container .right ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
